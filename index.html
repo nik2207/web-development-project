@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <style>
+        body{
+            /* if you want to change text color write code in .body by default it will set black color */
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://wallpaperaccess.com/full/1514025.jpg');
+            background-size: 100%;
+            position: relative;
+            /* font-family: 'DynaPuff', 'cursive'; */
+        }
+
+        /* .right{
+            display: inline-block;
+            /* border: 2px solid red; */
+            /* position: absolute;
+            left: 50px;
+            top: 20px;
+        } */
+        .right img{
+            width: 150px;
+        } */
+
+        
+        .left{
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 50px;
+            top: 20px;
+        }
+        .left img{
+            width: 150px;
+        }
+
+        .mid{
+            /* if you want to put your data on center follow this steps display block,width and margin */
+            display:block;
+            width: 50%;
+            margin: 25px auto;
+            /* border: 2px solid rgb(166, 255, 0); */
+        }
+
+        .right{
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            /* border: 2px solid rgb(255, 234, 0); */
+        }
+
+        .navbar{
+            display: inline-block;
+        }
+
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        
+        }
+
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+ 
+        }
+
+        .navbar li a:hover, .navbar li a.active{
+            color: rgb(208, 226, 43);
+            text-decoration: underline;
+       }
+
+        .btn{
+            background-color: black;
+            color: antiquewhite;
+            margin: 0px 9px;
+            padding: 4px 8px;
+            border: 2px solid grey;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family:'DynaPuff', 'cursive' ;
+
+        }
+
+        .btn:hover{
+            color: aquamarine;
+            text-decoration: underline;
+        }
+
+        .container{
+            border: 5px solid red;
+            border-radius: 30px;
+            margin: 130px 90px;
+            padding: 75px;
+            width: 36%;
+        }
+
+        
+    .login-box{
+        position: absolute;
+        top:190%;
+        left: 35%;
+        width: 300px;
+        padding: 30px;
+        
+        transform: translate(-50%,-50%);
+        background: rgba(207, 183, 183, 0.5);
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .login-box .user-box{
+        position: relative;
+    }
+
+    .login-box .user-box input{
+        width: 100%;
+        padding: 10px 0;
+        font-size: 20px;
+        color: aquamarine;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+   }
+
+   
+    .login-box h2{
+        margin: 0 0 20px;
+        padding: 0;
+        color:#fff;
+        text-align: center;
+    }
+
+    .login-box .user-box input:focus-label,
+    .login-box .user-box input:valid-label{
+        top: -20px;
+        left: 0;
+        color: brown;
+        font-size: 12px;
+    }
+
+    .forgot_pass{
+        font-size: 12px;
+        color: #5b6b8b;
+        float: right;
+    }
+
+    .btn_submit{
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #03e9f4;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        margin-top: 20px;
+        letter-spacing: 4px;
+    }
+
+    .btn_submit:hover{
+        background:#03e9f4;
+        color: rgb(10, 11, 21);
+        border-radius: 5px;
+    }
+
+        /* .form-group input{
+            background-color: white;
+            text-align: center;
+            display: block;
+            width: 250px;
+            margin: 20px auto;
+            padding: 17px;
+            border: 2px solid wheat;
+            border-radius: 14px;
+            font-size: 15px;
+            font-family: 'DynaPuff', 'cursive';
+        } */
+
+        .container h1{
+            text-align: center;
+            color: rgb(11, 161, 184);
+        }
+
+        .container button{
+            display: block;
+            margin: auto;
+            width: 155px;
+            padding: 20px;
+        }
+
+        .fig{
+            /* margin: auto; */
+            text-align: center;
+            font-family:'DynaPuff', 'cursive' ;
+            color: rgb(255, 232, 127);
+            font-size: medium;
+        }
+
+        .fig:hover{
+        background:wheat;
+        color: white;
+        border-radius: 5px;
+    }
+    </style> 
+<body>
+    <header class="header">
+        <!-- left logo -->
+        <div class="left">
+            <img src="https://wallpaperaccess.com/full/1514025.jpg" alt="Nikhil Fitness">
+            <div>Nikhil Fitness</div>
+
+        </div>
+        <!-- for center -->
+        <div class="mid">
+            <ul class="navbar">
+            <li><a href="@" class="active">Home</a></li>
+            <li><a href="@">About</a></li>
+            <!-- <a href="" target="_main">contact</a> -->
+            <li><a href="@">Fitness center</a></li>
+            <!-- <a href="" target="_main">contact</a> -->
+            <li><a href="@">contact us</a></li>
+            <!-- <a href="" target="_main">contact</a> -->
+        </ul>
+
+        </div>
+
+        <!-- for right side -->
+        <div class="right">
+            <button class="btn"> Call us</button>
+            <button class="btn"> Email us</button>
+
+        </div>
+    </header>
+        <div class="login-box">
+            <h2>LOGIN FORM</h2>
+            <form>
+                
+                <div class="user-box">
+                    <input type="text" name="" required="">
+                    <label>USERNAME</label>
+                </div>
+    
+                <div class="user-box">
+                    <input type="password"  name="" required="">
+                    <label>PASSWORD</label>
+                </div>
+    
+                <div>
+                    <a href="#" class="forgot_pass">Forgot password?</a>
+                </div>
+                <a class="btn_submit" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Submit
+    
+                </a>
+            </form>
+        <!-- <h1>Join The Best Gym in Navi Mumbai</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Mobile No">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Mail id">
+            </div>
+        </form>
+        <button class="btn">Submit</button> -->
+</div>
+<div class="fig">
+    <h2>WELCOME TO FITNESS CULB</h2>
+        <li>Get A Perfect Body Figure here.</li>
+
+</div>
+
+</body>
+</html>
