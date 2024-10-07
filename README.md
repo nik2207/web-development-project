@@ -1,5 +1,4 @@
-# web-development-project
-# Web Development Project
+# web-development-project# Web Development Project
 
 ## Overview
 This project is a simple web development project that includes the following files:
@@ -9,7 +8,7 @@ This project is a simple web development project that includes the following fil
 - `README.md`: This file, which contains details about the project.
 
 ## Technologies Used
-- HTML5
-- CSS3 (if applicable)
-- JavaScript (if applicable)
+- HTML
+- CSS
+- JavaScript
 
